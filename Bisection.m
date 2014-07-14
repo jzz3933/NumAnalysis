@@ -20,8 +20,8 @@ classdef Bisection
     %% Output Properties
     properties( Dependent = true , SetAccess = private )
         % Root    Root of equation f(x)=0
-        %   the default value is 0.0001
-        Root = 0;
+        %   the default value is 0.6823
+        Root = 0.6823;
         
     end
     %% Bisection Method
